@@ -1,0 +1,48 @@
+logoutlocation:
+  world: world
+  x: -950.5814647546058
+  y: 82.0
+  z: 549.4211670326463
+  yaw: 91.33009
+  pitch: 2.1000063
+timestamps:
+  login: 1400135325234
+  lastteleport: 1400135333095
+  logout: 1400137199493
+  kits:
+    dl2: 1398870526611
+    dl3: 1398870529910
+    dl1: 1398870523860
+    shit: 1399409997554
+ipAddress: 83.227.4.248
+lastlocation:
+  world: world
+  x: -952.5
+  y: 58.200000047683716
+  z: 525.5
+  yaw: -43.972443
+  pitch: 16.349976
+homes:
+  home:
+    world: world
+    x: -326.6244310900446
+    y: 63.0
+    z: 1017.074545874196
+    yaw: 178.07497
+    pitch: 4.7999444
+  island:
+    world: world
+    x: -901.8356316575048
+    y: 67.0
+    z: -488.73897897267943
+    yaw: -177.47552
+    pitch: 1.0500923
+money: '1000'
+ban:
+  reason: '§4Banned:
+
+    §rI want to grief.'
+  timeout: 0
+socialspy: false
+godmode: false
+uuid: bdb4ae21-4020-4a72-9e4e-97e953d31342

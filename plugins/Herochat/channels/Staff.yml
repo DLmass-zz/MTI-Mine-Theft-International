@@ -1,0 +1,19 @@
+name: Staff
+nick: S
+speak: []
+join:
+- Admin
+- Moderator
+format: '{color}[{nick}] &f{sender}: &e{msg}'
+password: ''
+color: YELLOW
+hidden: true
+distance: 0
+shortcut: true
+verbose: true
+crossworld: true
+muted: false
+worlds: []
+bans: []
+mutes: []
+moderators: []

@@ -1,0 +1,9 @@
+name: Synapak
+activeChannel: Global
+channels:
+- Global
+- Local
+- Staff
+ignores: []
+muted: false
+autojoin: false

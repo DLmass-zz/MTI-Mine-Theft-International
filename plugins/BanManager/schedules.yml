@@ -1,0 +1,13 @@
+# Don't change these!
+lastChecked:
+  mutes: 1400309596
+  ipbans: 1400309598
+  bans: 1400309477
+  external: 0
+scheduler:
+  expiresCheck: 300
+  newMutes: 8
+  newBans: 8
+  newIPBans: 8
+  external: 120
+  saveLastRuns: 60

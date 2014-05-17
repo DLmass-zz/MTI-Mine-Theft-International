@@ -1,0 +1,143 @@
+groups:
+  User:
+    default: true
+    prefix: '&7'
+    permissions:
+    - modifyworld.*
+    - -'*'
+    - lift.change
+    - lift
+    - simpleregionmarket.signs.use.*
+    - essentials.sethome.multiple.User
+    - essentials.home
+    - essentials.sethome
+    - essentials.warp
+    - essentials.help
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.spawn
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.msg
+    - essentials.tell
+    - essentials.r
+    - essentials.seen
+    - essentials.seen.banreason
+    - essentials.pay
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.ptime
+    - -essentials.chat.*
+    - -essentials.signs.*
+    - mcmmo.ability.*
+    - mcmmo.skills.*
+    - mcmmo.defaults
+    - worldguard.region.info.own
+    - worldguard.region.addmember.own.*
+    - worldguard.region.removemember.own.*
+    - herochat.leave.Global
+    - herochat.autojoin.Global
+    - herochat.autojoin.Local
+    - herochat.force.join.Local
+    - herochat.force.join.Global
+    - herochat.join.Global
+    - herochat.join.Local
+    - herochat.speak.Local
+    - herochat.speak.Global
+    - herochat.pm
+  DL1:
+    permissions:
+    - essentials.sethome.multiple.DL1
+    - mcmmo.perks.xp.double
+    - essentials.jumpto
+    - essentials.depth
+    - essentials.hat
+    - essentials.workbench
+    - essentials.feed
+    - essentials.ignore
+  DL2:
+    inheritance:
+    - DL1
+    permissions:
+    - essentials.sethome.multiple.DL2
+    - mcmmo.perks.xp.triple
+    - essentials.enderchest
+    - essentials.compass
+    - essentials.back
+    - essentials.clearinventory
+    - essentials.tpahere
+  DL3:
+    inheritance:
+    - DL1
+    - DL2
+    permissions:
+    - essentials.sethome.multiple.DL3
+    - mcmmo.perks.xp.quadruple
+    - essentials.near
+    - essentials.getpos
+    - essentials.vanish
+    - essentials.top
+    - essentials.tptoggle
+  Moderator:
+    prefix: '&b'
+    inheritance:
+    - User
+    permissions:
+    - herochat.leave.Staff
+    - herochat.autojoin.Staff
+    - herochat.force.join.Staff
+    - herochat.join.Staff
+    - herochat.speak.Staff
+    - essentials.fly
+    - essentials.feed
+    - essentials.warp.*
+    - essentials.warps.*
+    - essentials.warp.list
+    - bm.bminfo
+    - bm.warn
+    - bm.kick
+    - bm.tempmute
+    - bm.exempt.kick
+    - bm.exempt.ban
+    - bm.exempt.tempban
+    - bm.exempt.tempmute
+    - bm.exempt.banip
+  Admin:
+    prefix: '&1'
+    inheritance:
+    - User
+    - Moderator
+    permissions:
+    - essentials.*
+    - disguisecraft.mob.*
+    - essentials.god
+    - bm.ban
+    - bm.tempban
+    - bm.unban
+    - bm.banip
+    - bm.tempbanip
+    - bm.unbanip
+    - bm.unmute
+    - bm.mute
+    - bm.tempbanoffline
+    - bm.banoffline
+  Founders:
+    prefix: '&4'
+    permissions:
+    - '*'
+users:
+  northerwood:
+    group:
+    - Admin
+  bdb4ae21-4020-4a72-9e4e-97e953d31342:
+    group:
+    - Founders
+    options:
+      name: DLmass
+  ebc33464-7e21-4324-82f4-8ed7ae01873d:
+    group:
+    - Founders
+    options:
+      name: sirjoot

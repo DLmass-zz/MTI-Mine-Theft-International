@@ -1,0 +1,9 @@
+name: seckkb1
+activeChannel: Global
+channels:
+- Global
+- Local
+- Staff
+ignores: []
+muted: false
+autojoin: false

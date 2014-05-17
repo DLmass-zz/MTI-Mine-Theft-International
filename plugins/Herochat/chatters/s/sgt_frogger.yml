@@ -1,0 +1,8 @@
+name: sgt_frogger
+activeChannel: Global
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

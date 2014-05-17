@@ -1,0 +1,8 @@
+name: Lil_Wog
+activeChannel: Global
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

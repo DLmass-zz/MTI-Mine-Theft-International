@@ -1,0 +1,8 @@
+name: Postremus
+activeChannel: Local
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

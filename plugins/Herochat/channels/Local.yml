@@ -1,0 +1,14 @@
+name: Local
+nick: L
+format: '{default}'
+password: ''
+color: WHITE
+distance: 25
+shortcut: true
+verbose: true
+crossworld: true
+muted: false
+worlds: []
+bans: []
+mutes: []
+moderators: []

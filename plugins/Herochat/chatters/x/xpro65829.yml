@@ -1,0 +1,9 @@
+name: xpro65829
+activeChannel: Global
+channels:
+- Global
+- Local
+- Staff
+ignores: []
+muted: false
+autojoin: false

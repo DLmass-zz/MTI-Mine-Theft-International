@@ -1,0 +1,41 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 5/10/14 4:55 AM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at net.minecraft.server.v1_7_R3.DedicatedServer.aB(DedicatedServer.java:292)
+	at net.minecraft.server.v1_7_R3.DedicatedServer.a(DedicatedServer.java:238)
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:477)
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.9
+	Operating System: Linux (amd64) version 2.6.32-27-pve
+	Java Version: 1.7.0_25, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 41049424 bytes (39 MB) / 64880640 bytes (61 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx1G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:74)
+	at org.bukkit.craftbukkit.v1_7_R3.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.server.v1_7_R3.CrashReportSystemDetails.a(SourceFile:74)
+	at net.minecraft.server.v1_7_R3.CrashReport.h(CrashReport.java:45)
+	at net.minecraft.server.v1_7_R3.CrashReport.<init>(CrashReport.java:33)
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:486)
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628)
+
+	Profiler Position: N/A (disabled)
+	Is Modded: ~~ERROR~~ NullPointerException: null
+	Type: Dedicated Server (map_server.txt)

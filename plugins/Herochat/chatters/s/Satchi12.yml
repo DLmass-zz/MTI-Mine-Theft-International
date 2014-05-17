@@ -1,0 +1,8 @@
+name: Satchi12
+activeChannel: Global
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

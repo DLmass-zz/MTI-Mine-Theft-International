@@ -1,0 +1,8 @@
+name: aayush13
+activeChannel: Global
+channels:
+- Global
+- Local
+ignores: []
+muted: false
+autojoin: false

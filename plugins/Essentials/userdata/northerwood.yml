@@ -1,0 +1,42 @@
+timestamps:
+  login: 1399838703605
+  lastteleport: 1399768081489
+  logout: 1399839241178
+ipAddress: 162.228.174.203
+lastlocation:
+  world: world
+  x: 146.73495584763145
+  y: 104.34268843771987
+  z: 1251.5432307035605
+  yaw: -337.90817
+  pitch: 1.9103211
+logoutlocation:
+  world: world
+  x: -944.9147264830781
+  y: 52.584183408629904
+  z: 528.9699910601443
+  yaw: -296.12738
+  pitch: 27.082823
+homes:
+  mine:
+    world: world
+    x: -318.5711594323876
+    y: 13.0
+    z: -477.30000001192093
+    yaw: 272.7291
+    pitch: 6.5259123
+  home:
+    world: world
+    x: -275.4325422272344
+    y: 185.0
+    z: -506.77188666736834
+    yaw: -359.4305
+    pitch: 0.70085394
+  kirsten_s:
+    world: world
+    x: -396.5
+    y: 66.0
+    z: -565.5
+    yaw: -344.48563
+    pitch: 54.23371
+uuid: f9033fbf-530a-4f3f-961a-a13a053507af
